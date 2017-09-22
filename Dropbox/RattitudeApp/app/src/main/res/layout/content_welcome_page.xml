@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.gatech.cs2340.rattitude.rattitudeapp.WelcomePage"
+    tools:showIn="@layout/activity_welcome_page">
+
+    <Button
+        android:id="@+id/returnToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="retunToHome"
+        android:text="Return Home"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Rattitude!"
+        android:textSize="30sp"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="29dp" />
+</android.support.constraint.ConstraintLayout>
